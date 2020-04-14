@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:BasicNestedForms
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BasicNestedForms	config/application.rb	/^module BasicNestedForms$/;"	m
+Comment	app/models/comment.rb	/^class Comment < ActiveRecord::Base$/;"	c
+CreateComments	db/migrate/20160114213039_create_comments.rb	/^class CreateComments < ActiveRecord::Migration$/;"	c
+CreatePosts	db/migrate/20160114213006_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
+CreateUsers	db/migrate/20160114212908_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
+PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
+PostsHelper	app/helpers/posts_helper.rb	/^module PostsHelper$/;"	m
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+change	db/migrate/20160114212908_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	db/migrate/20160114213006_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+change	db/migrate/20160114213039_create_comments.rb	/^  def change$/;"	f	class:CreateComments
+show	app/controllers/posts_controller.rb	/^  def show$/;"	f	class:PostsController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
