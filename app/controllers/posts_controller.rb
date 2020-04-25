@@ -1,6 +1,12 @@
 class PostsController < ApplicationController
 
   def show
-    @post = Post.find(params[:id])
+    set_post
+  end
+
+  private 
+
+  def set_post
+    @post = Post.find_by_id(params[:id])
   end
 end
